@@ -1,0 +1,29 @@
+
+.venv/
+__pycache__/
+*.pyc
+
+.env
+
+.ipynb_checkpoints/
+
+# Raw social media dataset
+data/raw/*
+data/processed/*
+
+# Preserve dataset instructions
+!data/raw/README.md
+!data/processed/README.md
+
+# Model checkpoints
+models/*
+!models/tfidf/.gitkeep
+!models/muril/.gitkeep
+
+# Generated experiment outputs
+muril_results/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
