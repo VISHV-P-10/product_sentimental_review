@@ -23,7 +23,7 @@ def convert_conll_to_dataframe(file_path):
 
         if text and sentiment in {
             "positive",
-            "begative",
+            "negative",
             "neutral"
         }:
             records.append({
