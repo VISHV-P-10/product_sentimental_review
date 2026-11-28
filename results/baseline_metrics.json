@@ -1,0 +1,16 @@
+[
+    {
+        "model": "Logistic Regression",
+        "accuracy": 0.6046666666666667,
+        "macro_precision": 0.6023439935422968,
+        "macro_recall": 0.6176531797120393,
+        "macro_f1": 0.604206465907176
+    },
+    {
+        "model": "Linear SVM",
+        "accuracy": 0.5886666666666667,
+        "macro_precision": 0.5882087886441115,
+        "macro_recall": 0.5974615041961512,
+        "macro_f1": 0.5912891731094189
+    }
+]
